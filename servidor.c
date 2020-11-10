@@ -288,6 +288,7 @@ void servicio(void* socket) {
 			break;
 
 		} // switch
+		//RAMA PRUEBA
 
 		enviados = send(*nuevosockfd, buffer_out, (int)strlen(buffer_out), 0);//Aquí hay un error sin controlar
 
