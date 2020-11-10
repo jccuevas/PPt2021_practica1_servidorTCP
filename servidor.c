@@ -289,7 +289,7 @@ void servicio(void* socket) {
 
 		} // switch
 
-		enviados = send(*nuevosockfd, buffer_out, (int)strlen(buffer_out), 0);
+		enviados = send(*nuevosockfd, buffer_out, (int)strlen(buffer_out), 0);//Aquí hay un error sin controlar
 
 	} while (!fin_conexion);
 
